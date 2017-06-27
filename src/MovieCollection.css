@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 15em;
+  padding: 2em;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.movieContainer div span {
+  display: block;
+  margin-top: 0.25em;
+}
+
+.movieContainer div p {
+  display: block;
+  margin-top: 0.25em;
+  height: auto;
+  min-height: 22em;
+}
+
+.movieContainer div img {
+  margin-top: 0.25em;
+}
+
+.movieContainer {
+  margin-top: 2em;
+  float: left;
+}
+
+.img-width {
+  width: 10em;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
